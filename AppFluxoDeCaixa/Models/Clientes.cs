@@ -71,7 +71,7 @@ namespace AppFluxoDeCaixa.Models
         public string? Observacao { get; set; }
 
         [Display(Name = "Número")]
-        [Required(ErrorMessage = "O Campo Número é obrigatório")]
+        [Required(ErrorMessage = "O Campo Número é Obrigatório")]
         public string Numero { get; set; }
 
     }
